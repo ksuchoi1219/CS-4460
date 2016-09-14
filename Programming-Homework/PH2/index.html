@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Programming Homework 3</title>
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="main.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h2>Programming Homework 3</h2>
+  <h3>Course GPAs</h3>
+  <h4>Kwang Su Choi</h4>
+  <div id="graph"></div>
+  <br><span title="Select a Department">
+  Choose Department:
+  <select id="Department">
+    <option id = "CHEM" value="CHEM">CHEM</option>
+    <option id="CS" value="CS">CS</option>
+    <option id="ENGL" value="ENGL">ENGL</option>
+    <option id="HTS" value="HTS">HTS</option>
+    <option id="MATH" value="MATH">MATH</option>
+    <option id="MGT" value="MGT">MGT</option>
+    <option id="PHYS" value="PHYS">PHYS</option>
+    <option id="PSYC" value="PSYC">PSYC</option>
+  </select>
+  </span>
+  <br>
+  <br>
+  <form>
+    <span title="GPA value">Type in GPA:
+    <input type="number" min="0" max="4.00" step=".01" id="GPA">
+    </span>
+    <br><br>
+    <button type="button" id="filterButton" class="myButton">Filter</button>
+  </form>
+  <br>
+  <br>
+  <hr>
+
+</body>
+</html>
